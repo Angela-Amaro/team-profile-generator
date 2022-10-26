@@ -14,7 +14,7 @@ Answer the questions to generate your team's profile in an Html
 
 ![generated team screenshots](./teamgenerated.jpg)
 
-[link to video demo of application](https://drive.google.com/file/d/19RkqbRsvQqMfARD03vdN4gBDMKtkRuWq/view)
+[link to video demo of application](https://drive.google.com/file/d/1Ha_cxIn9LT95dn_0Yv_7D9K4oET87L0i/view?usp=sharing)
 
 ## Languages
 
