@@ -72,7 +72,7 @@ function addTeamMember() {
             },
             {
                 type: 'input',
-                name: 'engineerGitHub',
+                name: 'GitHub',
                 message: 'what is your engineer Github username?'
             },
         ])

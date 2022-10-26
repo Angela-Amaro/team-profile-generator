@@ -1,5 +1,5 @@
 const Engineer = require('./engineer');
-const newEngineer = new Engineer('angela','1','angela@gmail.com','Angela-Amaro');
+const newEngineer = new Engineer('Angela','1','Angela@gmail.com','Angela-Amaro');
 
 describe('Engineer',() =>{
     describe("Engineer Constructor", () =>{
@@ -7,7 +7,7 @@ describe('Engineer',() =>{
             expect(newEngineer.name).toEqual('Angela');
             expect(newEngineer.id).toEqual('1');
             expect(newEngineer.email).toEqual('Angela@gmail.com');
-            expect(newEngineer.github).toEqual('Angela-Amaro')
+            expect(newEngineer.GitHub).toEqual('Angela-Amaro')
         });
         it("I should get the Engineers GitHub from using getGitHub()",() =>{
             expect(newEngineer.getGitHub()).toEqual('Angela-Amaro');
