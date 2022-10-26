@@ -8,8 +8,8 @@ describe('Engineer',() =>{
             expect(newEngineer.id).toEqual('id');
             expect(newEngineer.email).toEqual('email');
         });
-        it("should have a role of newEmployee",() =>{
-            const newRole = "employee"
+        it("should have a role of Employee",() =>{
+            const newRole = "Employee"
             expect(newEmployee.getRole()).toEqual(newRole)
         })
     });
