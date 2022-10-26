@@ -22,12 +22,12 @@ const questions = [
 },
 {
     type: 'input',
-    name: 'managersEmail',
+    name: 'managerEmail',
     message: 'what is your managers email?',
 },
 {
     type: 'input',
-    name: 'managersOfficeNumber',
+    name: 'managerOfficeNumber',
     message: 'what is your managers office number?',
 },];
 //grabs manger inputs 
@@ -77,7 +77,7 @@ function addTeamMember() {
             },
         ])
         .then(answer => {
-            const newEngineer = new Engineer(answer.engineerName, answer.engineerId, answer.engineerEmail, answer.engineerGitHub);
+            const newEngineer = new Engineer(answer.engineerName, answer.engineerId, answer.engineerEmail, answer.GitHub);
             teamMembers.push(newEngineer);
             addTeamMember();
         })
